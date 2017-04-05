@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.snaily.prochamp.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <Button
+        android:id="@+id/buttonc"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:background="@android:color/holo_blue_dark"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/clang"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttoncpp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:background="@android:color/holo_blue_dark"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/Cpp"
+        android:textSize="30sp"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_below="@+id/buttonc"
+        android:layout_alignRight="@+id/buttonp"
+        android:layout_alignEnd="@+id/buttonp" />
+
+    <Button
+        android:id="@+id/buttonp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="81dp"
+        android:background="@android:color/holo_blue_dark"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="@string/Py"
+        android:textSize="30sp"
+        android:layout_below="@+id/buttoncpp"
+        android:layout_alignLeft="@+id/buttonc"
+        android:layout_alignStart="@+id/buttonc" />
+</RelativeLayout>
