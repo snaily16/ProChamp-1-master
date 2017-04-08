@@ -6,11 +6,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.snaily.prochamp.C_tab$PlaceholderFragment">
+    tools:context="com.example.snaily.prochamp.Py_tab$PlaceholderFragment">
 
 
     <ListView
-        android:id="@+id/intermediate_list"
+        android:id="@+id/basic_py_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

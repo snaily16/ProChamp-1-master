@@ -92,4 +92,26 @@
     <string name="title_activity_cpp_tab">Cpp_tab</string>
     <string name="title_activity_py_tab">Py_tab</string>
     <string name="title_activity_print_c">Print_c</string>
+
+    <!-- Strings related to list of programs -->
+    <string-array name="Basic_c">
+        <item>Print data</item>
+        <item>Input data</item>
+        <item>Newline</item>
+        <item>if-else</item>
+        <item>switch</item>
+        <item>for-loop</item>
+        <item>while loop</item>
+        <item>do while loop</item>
+    </string-array>
+    <string name="title_activity_hello_world">Hello World</string>
+    <string name="title_activity_cpp_inputdata">Input data</string>
+    <string name="title_activity_cpp_newline">Newline</string>
+    <string name="title_activity_cpp_arithmetic">Arithmetic</string>
+    <string name="title_activity_cpp_ifelse">If-else</string>
+    <string name="title_activity_cpp_switch">Switch case</string>
+    <string name="title_activity_cpp_forloop">For loop</string>
+    <string name="title_activity_cpp_whileloop">While loop</string>
+    <string name="title_activity_cpp_dowhile">Do-while loop</string>
+
 </resources>

@@ -19,7 +19,7 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
-public class Print_c extends AppCompatActivity {
+public class CppWhileloop extends AppCompatActivity {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -39,7 +39,7 @@ public class Print_c extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_print_c);
+        setContentView(R.layout.cpp_whileloop);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -69,7 +69,7 @@ public class Print_c extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_print_c, menu);
+        getMenuInflater().inflate(R.menu.menu_cpp_whileloop, menu);
         return true;
     }
 
@@ -116,7 +116,7 @@ public class Print_c extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_print_c, container, false);
+            View rootView = inflater.inflate(R.layout.fragment_cpp_whileloop, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             return rootView;
@@ -150,11 +150,11 @@ public class Print_c extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "SECTION 1";
+                    return "PROGRAM";
                 case 1:
-                    return "SECTION 2";
+                    return "ALGORITHM";
                 case 2:
-                    return "SECTION 3";
+                    return "FLOWCHART";
             }
             return null;
         }

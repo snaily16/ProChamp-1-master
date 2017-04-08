@@ -19,7 +19,7 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
-public class C_tab extends AppCompatActivity {
+public class CppInputdata extends AppCompatActivity {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -39,7 +39,7 @@ public class C_tab extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_c_tab);
+        setContentView(R.layout.cpp_inputdata);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -69,7 +69,7 @@ public class C_tab extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_c_tab, menu);
+        getMenuInflater().inflate(R.menu.menu_cpp_inputdata, menu);
         return true;
     }
 
@@ -89,7 +89,6 @@ public class C_tab extends AppCompatActivity {
     }
 
 
-
     /**
      * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
      * one of the sections/tabs/pages.
@@ -104,18 +103,16 @@ public class C_tab extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
-                    CTab1 tab1 = new CTab1();
-                    return  tab1;
+                    CppInput1 cppInput1 = new CppInput1();
+                    return cppInput1;
                 case 1:
-                    CTab2 tab2 = new CTab2();
-                    return tab2;
+                    CppInput2 cppInput2 = new CppInput2();
+                    return cppInput2;
                 case 2:
-                    CTab3 tab3 = new CTab3();
-                    return tab3;
-
+                    CppInput3 cppInput13 = new CppInput3();
+                    return cppInput13;
                 default:
                     return null;
-
             }
         }
 
@@ -129,11 +126,11 @@ public class C_tab extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "BASICS";
+                    return "PROGRAM";
                 case 1:
-                    return "INTERMEDIATE";
+                    return "ALGORITM";
                 case 2:
-                    return "ADVANCED";
+                    return "FLOWCHART";
             }
             return null;
         }

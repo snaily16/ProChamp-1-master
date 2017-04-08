@@ -11,17 +11,17 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 /**
- * Created by snaily on 4/4/17.
+ * Created by snaily on 6/4/17.
  */
 
-public class CTab3 extends Fragment {
+public class PyTab3 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.frag_c_tab3, container, false);
-        String[] C_Advance ={"Bubble Sort","Quick Sort","Selection Sort","Linear Search","Binary Search","* Patterns"};
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_1,C_Advance);
-        ListView view3 = (ListView) rootView.findViewById(R.id.advance_list);
+        View rootView = inflater.inflate(R.layout.frag_py_tab3, container, false);
+        String[] Py_Advance ={"Bubble Sort","Quick Sort","Selection Sort","Linear Search","Binary Search","* Patterns"};
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_1,Py_Advance);
+        ListView view3 = (ListView) rootView.findViewById(R.id.advance_py_list);
         view3.setAdapter(adapter);
         view3.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

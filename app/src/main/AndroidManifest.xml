@@ -32,8 +32,40 @@
             android:label="@string/title_activity_py_tab"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Print_c"
-            android:label="@string/title_activity_print_c"
+            android:name=".CppHelloWorld"
+            android:label="@string/title_activity_hello_world"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CppInputdata"
+            android:label="@string/title_activity_cpp_inputdata"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CppNewline"
+            android:label="@string/title_activity_cpp_newline"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CppArithmetic"
+            android:label="@string/title_activity_cpp_arithmetic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CppIfelse"
+            android:label="@string/title_activity_cpp_ifelse"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CppSwitch"
+            android:label="@string/title_activity_cpp_switch"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CppForloop"
+            android:label="@string/title_activity_cpp_forloop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CppWhileloop"
+            android:label="@string/title_activity_cpp_whileloop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CppDowhile"
+            android:label="@string/title_activity_cpp_dowhile"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
