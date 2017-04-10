@@ -117,6 +117,13 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_slideshow) {
 
         }  else if (id == R.id.nav_share) {
+            Intent myIntent = new Intent(Intent.ACTION_SEND);
+            myIntent.setType("text/plain");
+            String shareBody = "ProChamp";
+            String shareSub = "Share my app";
+            myIntent.putExtra(Intent.EXTRA_SUBJECT,shareBody);
+            myIntent.putExtra(Intent.EXTRA_TEXT,shareSub);
+            startActivity(Intent.createChooser(myIntent,"Share using"));
 
         } else if (id == R.id.nav_feed) {
 
